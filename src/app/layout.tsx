@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
+import Header from "@/components/header/Header";
 import Sidebar from "@/components/Sidebar";
 import BarbedWire from "@/components/BarbedWire";
 import {
