@@ -15,7 +15,7 @@ export default function Nav() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex item-center justify-center gap-3 p-4 border-b border-green-800">
+    <nav className="flex item-center justify-center gap-3 p-4">
       {navLinks
         .filter((link) => link.href !== pathname)
         .map((link) => (

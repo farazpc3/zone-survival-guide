@@ -57,8 +57,8 @@ export default function NavItem({
       onMouseLeave={() => setHovered(false)}
       onClick={playClick}
       className="relative px-6 py-2 mx-4 border border-green-800 text-green-400 font-mono
-                 tracking-wider bg-gray-900 transition-all duration-200 rounded-3xl
-                 flex items-center justify-center whitespace-nowrap overflow-hidden"
+                 tracking-wider bg-gray-800 transition-all duration-200 rounded-3xl
+                 flex items-center justify-center whitespace-nowrap overflow-hidden shadow-12 shadow-[0_0_10px_5px_rgba(128,128,128,0.5),0_0_20px_10px_rgba(128,128,128,0.3)]"
       style={
         hovered && mounted
           ? {
